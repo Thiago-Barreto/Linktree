@@ -1,0 +1,99 @@
+body {
+  background-color: #334477;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Verdana;
+}
+
+.container {
+  margin: 10vh 0 10vh 0;
+  padding: 3.125rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  background: linear-gradient(240deg, #334477, #7755AA, #334477);
+  box-shadow: 0px 0px 20px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.container header img {
+  width: 80%;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  padding: 0.225rem;
+}
+.container header p {
+  font-weight: bold;
+  font-size: 0.9375rem;
+  margin-top: 0.1rem;
+}
+.container main {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.container main section h1 {
+  font-size: 1.75rem;
+  margin-top: -0.2rem;
+}
+.container main section p {
+  font-size: 0.875rem;
+  margin: 0 0 1.75rem 0;
+}
+.container main aside {
+  display: grid;
+  gap: 0.625rem;
+}
+.container main aside .links {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.625rem 7.4063rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container main aside .dev {
+  position: relative;
+}
+.container main aside .dev::after {
+  content: "Em desenvolvimento";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.801);
+  transition: 0.3s ease-in-out;
+}
+.container main div h2 {
+  font-size: 1.3125rem;
+}
+.container main div .zero {
+  text-decoration: line-through;
+  opacity: 0.1;
+}
+.container main .icons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container main .icons a {
+  border: 1px solid #fff;
+  padding: 0.4063rem;
+}
+.container main .icons a img {
+  width: 70%;
+}
+
+/*# sourceMappingURL=style.css.map */
