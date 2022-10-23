@@ -4,7 +4,7 @@
 
 <img src="./assets/img/Illustrator.png" alt="Design da página" />
 
-<h3 align="center">🚧 Linktree 🚀 Em construção... 🚧</h3>
+<h3 align="center"> Linktree 🚀 Desenvolvido.</h3>
 
 #
 
@@ -17,3 +17,4 @@
 
 #### Thiago Barreto R.
 
+[Links para site](https://thiago-barreto.github.io/Linktree/)
