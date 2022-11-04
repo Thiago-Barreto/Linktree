@@ -17,4 +17,4 @@
 
 #### Thiago Barreto R.
 
-[Links para site](https://thiago-barreto.github.io/Linktree/)
+<a href="https://thiago-barreto.github.io/Linktree/" target="_blank">Visualizar o site.</a>
